@@ -11,4 +11,6 @@
 
 body{
     background-color: var(--roxo-arosado);
+    color: var(--roxo-arosado-claro);
+    font-family: var(--font-titulo);
 }
