@@ -8,3 +8,7 @@
     --font-titulo: "Dekko", cursive, monospace;
     --font-texto: "Dekko", cursive, serif;
 }
+
+body{
+    background-color: var(--roxo-arosado);
+}
