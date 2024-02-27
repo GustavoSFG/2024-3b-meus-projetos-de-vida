@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+:root{
+    --roxo-escuro: #2A2F4F;
+    --roxo-arosado: #917FB3;
+    --roxo-arosado-claro: #E5BEEC;
+    --rosa-claro: #FDE2F3;
+    --font-titulo: "Dekko", cursive, monospace;
+    --font-texto: "Dekko", cursive, serif;
+}
