@@ -14,3 +14,9 @@ body{
     color: var(--roxo-arosado-claro);
     font-family: var(--font-titulo);
 }
+.conteudo-pri6ncipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
