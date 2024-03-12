@@ -2,8 +2,8 @@
 
 :root{
     --roxo-escuro: #3d2a4f;
-    --roxo-arosado: #740e32;
-    --roxo-arosado-claro: #E5BEEC;
+    --roxo-arosado: #3c6658;
+    --roxo-arosado-claro: #ffffff;
     --rosa-claro: #FDE2F3;
     --cinza: #ffffffc0;
     --font-titulo: "Dekko", cursive, monospace;
@@ -38,8 +38,8 @@ color: var(--cinza);
 .botao {
 font-family: var(--font-texto);
 font-size: 18px;
-background-color: #cc1360;
-color: white;
+background-color: #0b7e57;
+color: rgb(255, 255, 255);
 display: flex;
 justify-content: center;
 align-items: center;
@@ -63,7 +63,7 @@ border-top: none;
     border-radius: 0 0 40px 40px;
 }
 .ativo{
-    background-color: #4d0422;
+    background-color: #091802;
     color: 4px solid rgb(133, 30, 30);
 }
 
