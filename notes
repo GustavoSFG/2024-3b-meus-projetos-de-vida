@@ -3,3 +3,5 @@ https://colorhunt.co/palette/070f2b1b1a55535c919290c3
 https://colorhunt.co/palette/2a2f4f917fb3e5beecfde2f3
 
 https://fonts.google.com/specimen/Dekko?classification=Handwriting&stroke=Sans+Serif
+
+contadores[0].textContent = tempoObjetivo1 - tempoAtual
