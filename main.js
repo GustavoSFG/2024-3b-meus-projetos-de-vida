@@ -10,7 +10,19 @@ const tempoObjetivo04 = new Date('2024-12-27T00:00:00');
 
 const tempos = [tempoObjetivo01, tempoObjetivo02, tempoObjetivo03, tempoObjetivo04];
 
-//comecacronometo
+function atualizaCronometro() {
+    for (let = i = 0; i < tempos.length; i++) {
+        contadores[i].textContent = calculaTempo(tempos[i]);
+    }
+}
+
+function comecaCronometro() {
+    atualizaCronometro();
+    setInterval(atualizaCronometro, 1000);
+}
+
+comecaCronometro();
+
 
 for (let = i = 0; i < botoes.length; i++) {
     botoes[i].onclick = function () {
@@ -38,26 +50,9 @@ function calculaTempo(tempoObjetivo) {
     segundos %= 60;
     minutos %= 60;
     horas %= 24;
-
     if (tempofinal > 0) {
-
-
         return dias + " Dias " + horas + " Horas " + minutos + " Minutos " + segundos + " Segundos ";
-    } else { } function atualizaCronometro() {
-        for (let i = 0; i < tempos.length; i++) {
-            contadores[i].textContent = calculaTempo(tempos[i]);
-        }
-    }
-
-    function comecaCronometro() {
-        atualizaCronometro();
-        setInterval(atualizaCronometro, 1000);
+    } else {
         return "Prazo Finalizado"
     }
-
-    function comecaCronometro(tempoObjetivo) {
-    } function atualizaCronometro() 
-        for (let i = 0; i < tempos.length; i++) {
-            contadores[i].textContent = calculaTempo(tempos[i]);
-        }
-    }
+}
