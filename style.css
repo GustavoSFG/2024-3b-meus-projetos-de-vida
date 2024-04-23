@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
 
-:root{
+:root {
     --roxo-escuro: #3d2a4f;
     --roxo-arosado: #3c6658;
     --roxo-arosado-claro: #ffffff;
@@ -10,12 +10,13 @@
     --font-texto: "Dekko", cursive, serif;
 }
 
-body{
+body {
     background-color: var(--roxo-arosado);
     color: var(--roxo-arosado-claro);
     font-family: var(--font-titulo);
 }
-.conteudo-principal{
+
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,83 +26,86 @@ body{
     margin: 0 auto;
 }
 
-.titulo-principal{
-text-align: left;
-width: 100%;
-font-size: 36px;
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 36px;
 }
 
-.titulo-principal span{
-color: var(--cinza);
+.titulo-principal span {
+    color: var(--cinza);
 }
 
 .botao {
-font-family: var(--font-texto);
-font-size: 18px;
-background-color: #0b7e57;
-color: rgb(255, 255, 255);
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 1em;
-width: 100%;
-border-bottom: 4px solid var(--roxo-arosado-claro);
-border-left: 4px solid var(--roxo-arosado-claro);
-border-right: 4px solid var(--roxo-arosado-claro);
-border-top: none;
+    font-family: var(--font-texto);
+    font-size: 18px;
+    background-color: #0b7e57;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    border-bottom: 4px solid var(--roxo-arosado-claro);
+    border-left: 4px solid var(--roxo-arosado-claro);
+    border-right: 4px solid var(--roxo-arosado-claro);
+    border-top: none;
 }
 
 .botoes {
     display: block;
 }
 
-.botao:first-child{
+.botao:first-child {
     border-radius: 40px 40px 0 0;
 }
 
-.botao:last-child{
+.botao:last-child {
     border-radius: 0 0 40px 40px;
 }
-.botao.ativo{
+
+.botao.ativo {
     background-color: #091802;
     color: 4px solid rgb(133, 30, 30);
 
 
 }
-.abas-textos{
+
+.abas-textos {
     background-color: #0e271f;
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
 
-.abas-conteudo.ativo{
-  display: block;
+.abas-conteudo.ativo {
+    display: block;
 }
 
-.abas-conteudo{
-  display: none;
+.abas-conteudo {
+    display: none;
 }
 
-.aba-conteudo-titulo-principal{
-  font-size: 28px;
-  text-align: center;
+.aba-conteudo-titulo-principal {
+    font-size: 28px;
+    text-align: center;
 }
 
-.aba-conteudo-titulo-secundario{
-  text-align: center;
-  color: #00fff2;
-  text-transform: uppercase;
+.aba-conteudo-titulo-secundario {
+    text-align: center;
+    color: #00fff2;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-    .botoes{
-            display: flex;
+    .botoes {
+        display: flex;
     }
-    .botao:first-child{
+
+    .botao:first-child {
         border-radius: 40px 0 0 0;
     }
-    .botao:last-child{
+
+    .botao:last-child {
         border-radius: 0 40px 0 0;
     }
 }
-
